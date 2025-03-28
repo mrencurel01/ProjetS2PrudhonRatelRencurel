@@ -8,6 +8,10 @@ package com.mycompany.projects2prudhonratelrencurel;
  *
  * @author adrie
  */
+import java.util.ArrayList;
 public class Gamme {
+    
+   private ArrayList<ZONE> listOperation = new ArrayList<>(); 
+    
     
 }
