@@ -9,5 +9,13 @@ package com.mycompany.projects2prudhonratelrencurel;
  * @author adrie
  */
 public class Machine {
+    private String refMachine;
+    private String dMachine;
+    private String type;
+    private float cout;
+    private float x;
+    private float y;
+    
+    
     
 }
