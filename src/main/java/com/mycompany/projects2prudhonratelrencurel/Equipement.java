@@ -9,15 +9,26 @@ package com.mycompany.projects2prudhonratelrencurel;
  * @author adrie
  */
 public class Equipement {
-   private int id_equipement;
+   private String refEquipement;
+   private String dEquipement;
 
-    public int getId_equipement() {
-        return id_equipement;
+    public String getRefEquipement() {
+        return refEquipement;
     }
 
-    public void setId_equipement(int id_equipement) {
-        this.id_equipement = id_equipement;
+    public void setRefEquipement(String refEquipement) {
+        this.refEquipement = refEquipement;
+    }
+
+    public String getdEquipement() {
+        return dEquipement;
+    }
+
+    public void setdEquipement(String dEquipement) {
+        this.dEquipement = dEquipement;
+    }
+
+
     }
    
-   
-}
+
