@@ -9,14 +9,41 @@ package com.mycompany.projects2prudhonratelrencurel;
  * @author adrie
  */
 public class Opération {
-    private int id_operation;
+    private String refOperation;
+    private String dOperation;
+    private String refEquipement;
+    private float dureeOperation;
 
-    public int getId_operation() {
-        return id_operation;
+    public String getRefOperation() {
+        return refOperation;
     }
 
-    public void setId_operation(int id_operation) {
-        this.id_operation = id_operation;
+    public void setRefOperation(String refOperation) {
+        this.refOperation = refOperation;
+    }
+
+    public String getdOperation() {
+        return dOperation;
+    }
+
+    public void setdOperation(String dOperation) {
+        this.dOperation = dOperation;
+    }
+
+    public String getRefEquipement() {
+        return refEquipement;
+    }
+
+    public void setRefEquipement(String refEquipement) {
+        this.refEquipement = refEquipement;
+    }
+
+    public float getDureeOperation() {
+        return dureeOperation;
+    }
+
+    public void setDureeOperation(float dureeOperation) {
+        this.dureeOperation = dureeOperation;
     }
     
     
