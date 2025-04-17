@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.projects2prudhonratelrencurel;
 
-/**
- *
- * @author adrie
- */
 public class Opération {
     private String refOperation;
     private String dOperation;
@@ -22,11 +14,11 @@ public class Opération {
         this.refOperation = refOperation;
     }
 
-    public String getdOperation() {
+    public String getDOperation() {
         return dOperation;
     }
 
-    public void setdOperation(String dOperation) {
+    public void setDOperation(String dOperation) {
         this.dOperation = dOperation;
     }
 
